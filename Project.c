@@ -424,7 +424,7 @@ switch (n) {
           system("tput clear");
           newaccount();
           break;}
-  case 50:{//clean_stdin();
+  case 50:{clean_stdin();
           system("tput clear");
           printf("Enter the account no whose details you want to view:");
           scanf("%d",&accno);
